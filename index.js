@@ -16,6 +16,7 @@ var directory = require('./lib/directory');
 var cart = require('./lib/cart');
 var orders = require('./lib/orders');
 var reviews = require('./lib/reviews');
+var countries = require('./lib/countries');
 
 const MAGENTO_API_VERSION = 'V1';
 
@@ -26,14 +27,14 @@ module.exports.Magento2Client = function (options) {
             if (module) {
                 if (this[key])
                     this[key] = Object.assign(this[key], module(client))
-                else 
+                else
                     this[key] = module(client)
             }
         }
     };
 
     options.version = MAGENTO_API_VERSION;
-    
+
     var client = RestClient(options);
 
     instance.attributes = attributes(client);
@@ -51,6 +52,7 @@ module.exports.Magento2Client = function (options) {
     instance.orders = orders(client);
     instance.directory = directory(client);
     instance.reviews = reviews(client);
+    instance.countries = countries(client);
 
     return instance;
 }
