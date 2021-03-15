@@ -17,6 +17,7 @@ var cart = require('./lib/cart');
 var orders = require('./lib/orders');
 var reviews = require('./lib/reviews');
 var countries = require('./lib/countries');
+var mediaGallery = require('./lib/media_gallery');
 
 const MAGENTO_API_VERSION = 'V1';
 
@@ -53,6 +54,7 @@ module.exports.Magento2Client = function (options) {
     instance.directory = directory(client);
     instance.reviews = reviews(client);
     instance.countries = countries(client);
+    instance.mediaGallery = mediaGallery(client);
 
     return instance;
 }
