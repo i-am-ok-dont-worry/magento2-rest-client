@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a1daf9a-55ce-4660-a2b3-4c0c7d9f6f46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/rest_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rest_client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +59,24 @@
       <workItem from="1611159075634" duration="910000" />
       <workItem from="1611304308147" duration="646000" />
       <workItem from="1612864857885" duration="2772000" />
+      <workItem from="1613425284494" duration="427000" />
+      <workItem from="1613768304705" duration="592000" />
+      <workItem from="1613814568159" duration="490000" />
+      <workItem from="1614802896215" duration="601000" />
+      <workItem from="1614805450135" duration="509000" />
+      <workItem from="1615118522198" duration="597000" />
+      <workItem from="1615810539374" duration="624000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../storefront-starter/packages/ktm/node_modules/@grupakmk/libstorefront-dotpay-plugin/tests/test.d.ts" />
+        <option value="$PROJECT_DIR$/../storefront-starter/packages/ktm/node_modules/@grupakmk/libstorefront-dotpay-plugin/tests/mock-localstorage.d.ts" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
