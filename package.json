@@ -1,5 +1,5 @@
 {
-  "name": "magento2-rest-client",
+  "name": "@grupakmk/magento2-rest-client",
   "version": "0.0.13",
   "description": "REST client for accessing Magento 2 functionality.",
   "scripts": {
