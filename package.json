@@ -53,7 +53,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "magento2-rest-client",
+  "name": "@grupakmk/magento2-rest-client",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nouvak/magento2-rest-client.git"
