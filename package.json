@@ -9,12 +9,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nouvak/magento2-rest-client.git"
+    "url": "https://gitlab.grupakmk.pl/internal/frontend/api/api-helpers/magento2-rest-client"
   },
   "bugs": {
-    "url": "https://github.com/nouvak/magento2-rest-client/issues"
+    "url": "https://gitlab.grupakmk.pl/internal/frontend/api/api-helpers/magento2-rest-client/-/issues"
   },
-  "homepage": "https://github.com/nouvak/magento2-rest-client#readme",
+  "homepage": "https://gitlab.grupakmk.pl/internal/frontend/api/api-helpers/magento2-rest-client/-/blob/master/README.md",
   "keywords": [
     "magento2",
     "REST",
