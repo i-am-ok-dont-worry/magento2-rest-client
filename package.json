@@ -24,7 +24,8 @@
     "humps": "^1.1.0",
     "oauth-1.0a": "^1.0.1",
     "request": "^2.72.0",
-    "winston": "^2.2.0"
+    "winston": "^2.2.0",
+    "magento-searchcriteria-builder": "https://github.com/i-am-ok-dont-worry/magento-searchcriteria-builder.git"
   },
   "devDependencies": {
     "chai": "^3.5.0",
